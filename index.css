@@ -1,14 +1,23 @@
+main{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+}
 a{
     text-decoration: none;
     color: #FFFFFF;
 }
+ul{
+    list-style: none;
+}
 
 li{
-    margin-right: 15px;
+    list-style: none;
+    margin-right: 25px;
 }
 .ul ul{
     display: flex;
-    list-style: none;
 }
 
 .header{
@@ -31,8 +40,6 @@ li{
     right: 150px;
 }
 .section1{
-    position: absolute;
-    top: 80px;
     left: 0px;
     right: 0px;
     display: flex;
@@ -47,7 +54,7 @@ li{
 .section1 a{
     background-color: #323433;
     border-radius: 5px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .button{
@@ -55,12 +62,12 @@ li{
 }
 
 .section2{
-    position: absolute;
-    top: 357px;
     left: 0px;
     right: 0px;
     background-color: #E9E9E9;
     padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .About{
@@ -69,6 +76,64 @@ li{
 }
 
 .section3{
-    position: absolute;
-    top: 542px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    left: 0px;
+    right: 0px;
+}
+.section3 ul{
+    padding-left: 100px;
+}
+.lists{
+    display: flex;
+}
+.section4{
+
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3F3;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.section5{
+    margin-top: -20px;
+    background-color: #E9E9E9;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.inputs{
+    
+    left: 0px;
+    right: 0px;
+}
+input{
+    width: 98.9%;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 99.17695473251029%;
+    display: block;
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+}
+.msg{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    background-color: #333333;
+    border-radius: 5px;
+}
+footer{
+    background-color: #FFFFFF;
 }
