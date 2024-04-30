@@ -1,0 +1,142 @@
+main{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+.ul ul{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    background-color: #333333;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.h1{
+    margin-left: 100px;
+}
+
+.ul{
+    position: absolute;
+    right: 150px;
+}
+.section1{
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section1 h1{
+    padding-top: 100px;
+}
+
+.section1 a{
+    background-color: #323433;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.button{
+    padding: 0px 20px 0px 20px;
+}
+
+.section2{
+    left: 0px;
+    right: 0px;
+    background-color: #E9E9E9;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.About{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.section3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    left: 0px;
+    right: 0px;
+}
+.section3 ul{
+    padding-left: 100px;
+}
+.lists{
+    display: flex;
+}
+.section4{
+
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3F3;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.section5{
+    margin-top: -20px;
+    background-color: #E9E9E9;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.inputs{
+    
+    left: 0px;
+    right: 0px;
+}
+input{
+    width: 98.9%;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 99.17695473251029%;
+    display: block;
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+}
+.msg{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    background-color: #333333;
+    border-radius: 5px;
+}
+footer{
+    background-color: #FFFFFF;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
